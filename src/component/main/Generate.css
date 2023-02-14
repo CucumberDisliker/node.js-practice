@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+html,
+body {
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  min-height: 100%;
+  margin: 0;
+}
+.main {
+  background-color: red;
+  display: flex;
+  width: 100%;
+}
+.main img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+  background-size: cover;
+  z-index: 1;
+  float: inherit;
+}
+
+.imgSec {
+  position: relative;
+}
+.Gen_centerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: left;
+}
+.Gen_centerText {
+  width: 28.15em;
+  height: 60px;
+  border: white solid 5px;
+  border-radius: 45px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+}
+.underInput {
+  width: inherit;
+  float: left;
+  vertical-align: middle;
+  position: relative;
+  width: 1000px;
+  margin-left: -45px;
+}
+
+.serachInput {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  left: 1.5em;
+  color: white;
+  font-size: 22px;
+  float: left;
+  top: 16px;
+  width: 400px;
+  font-weight: bold;
+}
+.serachInput::placeholder {
+  color: azure;
+}
+.serachInput:focus {
+  border: none;
+  outline: none;
+}
+.search:hover {
+  cursor: pointer;
+}
+.search {
+  background-color: transparent;
+  width: 7.44em;
+  height: 70px;
+  border: white 5px solid;
+  border-radius: 45px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  left: 57px;
+  bottom: 5px;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin-right: 50px;
+}
+li > input {
+  width: 7em;
+  height: 30px;
+  background-color: transparent;
+  border: white 5px solid;
+  color: white;
+}
+li > input:focus {
+  outline: none;
+}
+li > input::placeholder {
+  color: white;
+}
+.uiSelect {
+  width: 8.05em;
+  height: 42px;
+  background-color: transparent;
+  border: white 5px solid;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+select:focus {
+  outline: none;
+}

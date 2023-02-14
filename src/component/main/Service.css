@@ -1,0 +1,47 @@
+#centerText {
+  position: absolute;
+  top: 50%;
+  left: 10.5em;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: left;
+}
+.btnSec > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 60px;
+  position: relative;
+  bottom: 90px;
+}
+.btnSec > button:hover {
+  cursor: pointer;
+  font-size: 65px;
+  transition: 0.2s ease-in-out;
+}
+.secSec {
+  height: 4000px;
+  margin: 0px;
+  background-color: black;
+  position: relative;
+  bottom: 7px;
+}
+.secSec > video {
+  opacity: 0.4;
+  z-index: 0;
+  position: relative;
+}
+.videoP {
+  position: absolute;
+  top: 43%;
+  left: 10.5em;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: left;
+
+  z-index: -1;
+}

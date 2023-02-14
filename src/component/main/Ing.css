@@ -1,0 +1,19 @@
+.mainPic {
+  width: 512px;
+  height: 512px;
+  border: 5px white solid;
+}
+#makeImg {
+  width: 512px;
+  height: 512px;
+  margin: auto;
+}
+.Ing_btn {
+  width: 140px;
+  height: 35px;
+  border: 5px white solid;
+  background-color: transparent;
+  border-radius: 15px;
+  color: white;
+  margin-right: 20px;
+}

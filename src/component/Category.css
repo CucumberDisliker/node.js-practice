@@ -1,0 +1,77 @@
+.nav {
+  height: 80px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aTag {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+
+.nav:hover {
+  height: 100px;
+  cursor: pointer;
+}
+
+.nav .navContainer {
+  height: 80px;
+  display: flex;
+  margin: auto;
+  margin-right: 100px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+.nav .navContainer .active {
+  background-color: white;
+  color: black;
+  transition: 0.1s ease-in-out;
+}
+
+.nav .navContainer .none {
+  background-color: none;
+}
+
+.nav .navContainer li {
+  width: 200px;
+  height: 100%;
+  list-style-type: none;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav .navContainer li p {
+  margin: 0;
+}
+
+.nav .detailMenu {
+  display: flex;
+  overflow: hidden;
+}
+
+.nav .detailMenu ul {
+  width: 200px;
+  margin: auto;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.nav .detailMenu ul li {
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 10px;
+  color: white(7, 7, 105);
+  font-weight: 600;
+}
+.nav .detailMenu ul li:hover {
+  cursor: pointer;
+  background-color: rgb(198, 198, 241);
+}
